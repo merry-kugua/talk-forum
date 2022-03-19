@@ -71,7 +71,7 @@ module.exports = {
     proxy: null, // 设置代理
     proxy: {
       '/devApi': {
-        target: "localhost", // target处填写项目开发过程中的实际地址
+        target: `${process.env.VUE_APP_API_ROOT}`, // target处填写项目开发过程中的实际地址
         changeOrigin: true,
         pathRewrite: {
           '^/devApi': ''

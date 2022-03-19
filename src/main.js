@@ -4,6 +4,11 @@ import router from "./router";
 import store from "./store";
 import "./styles/main.scss"
 
+// 全局安装element ui 组件库
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+Vue.use(ElementUI);
 Vue.config.productionTip = false;
 
 new Vue({

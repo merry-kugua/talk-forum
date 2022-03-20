@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <div>1111</div>
-  </div>
+  <div class="warp-box">111</div>
 </template>
 <script>
 export default {};

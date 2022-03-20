@@ -1,2 +1,11 @@
 @import "./fontIcon.scss";
 @import "./normalize.scss";
+@import "./unifyStyle.scss";
+body {
+    background: #f6f6f6;
+}
+.talk-root {
+    width: 88%;
+    margin: auto;
+    padding-top: 30px;
+}

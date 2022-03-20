@@ -2,7 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import "./styles/main.scss"
+import "./styles/main.scss";
 
 // 全局安装element ui 组件库
 import ElementUI from 'element-ui';

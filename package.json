@@ -28,7 +28,9 @@
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-ribbon": "^1.1.2"
   },
   "eslintConfig": {
     "root": true,

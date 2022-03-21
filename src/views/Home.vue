@@ -1,5 +1,5 @@
 <template>
-  <div class="talk-root">
+  <div class="talk-root cursor-point">
     111
   </div>
 </template>

@@ -28,6 +28,18 @@ module.exports = {
     }
   },
   configureWebpack: (config) => {
+    config.resolve = {
+      plugins: [
+        'dynamic-title',
+        {
+           showIcon: '/favicon.ico',
+           showText: '(/≧▽≦/)咦！又好了！',
+           hideIcon: '/failure.ico',
+           hideText: '(●—●)喔哟，崩溃啦！',
+           recoverTime: 2000,
+        },
+     ],
+    }
     // 配置解析别名
     config.resolve = {
       extensions: ['.js', '.json', '.vue'],//自动添加文件后缀名
@@ -88,5 +100,5 @@ module.exports = {
   /**
    * 第三方插件配置
    */
-  pluginOptions: {}
+  
 }

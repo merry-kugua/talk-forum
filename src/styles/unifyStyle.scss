@@ -3,12 +3,15 @@
     display: flex;
 }
 .align-items-center {
+    display: flex;
     align-items: center;
 }
 .text-justify {
+    display: flex;
     text-align: justify;
 }
 .justify-content-between {
+    display: flex;
     justify-content: space-between;
 }
 .flex-sm-grow-1 {
@@ -65,10 +68,10 @@
 .pb-4 {
     padding-bottom: 1.5rem;
 }
-// 鼠标hover时改为手样式
-.cursor-point {
-    cursor: pointer;
-}
+// // 鼠标hover时改为手样式
+// .cursor-point {
+//     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),default;
+// }
 // 设置文本样式 左右中
 .text-left {
     text-align: left;

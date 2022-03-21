@@ -5,7 +5,7 @@
       <li class="talk-nav-list" v-for="(item, index) in talkNavList" :key="item.title">
         <router-link :to="{ name: item.routerLink }">
             <a
-              :class="item.group === $route.meta.group ? 'active-block' : '  '"
+              :class="item.routerLink === $route.name ? 'active-block' : ''"
               @click="activeLine(index)"
             >
               {{ item.title }}
@@ -20,13 +20,19 @@ export default {
   data (){
     return {
       talkNavList: [
-        {title: "首页", touterLink: ""},
-        // {title: "类别", touterLink: ""},
-        // {title: "归档", touterLink: ""},
-        // {title: "友链", touterLink: ""},
-        {title: "关于Teams", touterLink: ""},
-        {title: "登陆", touterLink: ""},
-      ]
+        {title: "首页", routerLink: "Home"},
+        // {title: "类别", routerLink: ""},
+        // {title: "归档", routerLink: ""},
+        // {title: "友链", routerLink: ""},
+        {title: "关于Teams", routerLink: ""},
+        {title: "登陆", routerLink: ""},
+      ],
+      activeIndex: ""
+    }
+  },
+  methods: {
+    activeLine(index) {
+      activeIndex = index;
     }
   }
 };
@@ -46,6 +52,10 @@ export default {
     &:hover {
       opacity: 1;
     }
+  }
+  .active-block {
+    text-decoration: underline !important;
+    text-underline-offset: 6px;
   }
 }
 </style>

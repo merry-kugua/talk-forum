@@ -4,4 +4,204 @@
 }
 .align-items-center {
     align-items: center;
-  }
+}
+.text-justify {
+    text-align: justify;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.flex-sm-grow-1 {
+    flex-grow: 1;
+}
+// margin-top设置
+.mt-1 {
+    margin-top: 0.25rem;
+}
+.mt-2 {
+    margin-top: 0.5rem;
+}
+.mt-3 {
+    margin-top: 1rem;
+}
+.mt-4 {
+    margin-top: 1.5rem;
+}
+// margin- bottom 设置
+.mb-1 {
+    margin-bottom: 0.25rem;
+}
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+.mb-3 {
+    margin-bottom: 1rem;
+}
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+// 设置padding间距
+.pt-1 {
+    padding-top: 0.25rem;
+}
+.pt-2 {
+    padding-top: 0.5rem;
+}
+.pt-3 {
+    padding-top: 1rem;
+}
+.pt-4 {
+    padding-top: 1.5rem;
+}
+.pb-1 {
+    padding-bottom: 0.25rem;
+}
+.pb-2 {
+    padding-bottom: 0.5rem;
+}
+.pb-3 {
+    padding-bottom: 1rem;
+}
+.pb-4 {
+    padding-bottom: 1.5rem;
+}
+// 鼠标hover时改为手样式
+.cursor-point {
+    cursor: pointer;
+}
+// 设置文本样式 左右中
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+// 设置定位样式
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.position-static {
+    position: static;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-sticky {
+    position: sticky;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+// 设置 宽度百分比
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.h-25 {
+    height: 25%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-75 {
+    height: 75%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-auto {
+    height: auto;
+}
+// btn 按钮
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+// hover 时状态
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+// dark 模式btn 按钮样式
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+// light 模式btn 按钮样式
+.btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+  
+  

@@ -80,16 +80,6 @@ module.exports = {
     https: false, // 编译失败时刷新页面
     hot: true, // 开启热加载
     hotOnly: false,
-    proxy: null, // 设置代理
-    proxy: {
-      '/devApi': {
-        target: `${process.env.VUE_APP_API_ROOT}`, // target处填写项目开发过程中的实际地址
-        changeOrigin: true,
-        pathRewrite: {
-          '^/devApi': ''
-        }
-      }
-    },
     overlay: { // 全屏模式下是否显示脚本错误
       warnings: true,
       errors: true
@@ -100,5 +90,5 @@ module.exports = {
   /**
    * 第三方插件配置
    */
-  
+
 }

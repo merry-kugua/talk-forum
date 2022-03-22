@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { loginWeb } from "@/api/api";
+import { loginWeb } from "@/api/adminApi";
 export default {
   name: "index",
   data(){

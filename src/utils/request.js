@@ -5,6 +5,7 @@ const axiosOption = {
   baseURL: process.env.VUE_APP_API_ROOT,
   timeout: 10000,
 };
+console.log(process.env.VUE_APP_API_ROOT)
 // 创建axios实例
 const service = axios.create(axiosOption);
 

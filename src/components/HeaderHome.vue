@@ -25,14 +25,14 @@ export default {
         // {title: "归档", routerLink: ""},
         // {title: "友链", routerLink: ""},
         {title: "关于Teams", routerLink: ""},
-        {title: "登陆", routerLink: ""},
+        {title: "登陆", routerLink: "Index"},
       ],
       activeIndex: ""
     }
   },
   methods: {
     activeLine(index) {
-      activeIndex = index;
+      this.activeIndex = index;
     }
   }
 };
